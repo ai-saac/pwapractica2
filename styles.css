@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: black; 
+    color: white; 
+}
+
+h1 {
+    margin-top: 20px;
+}
+
+.carousel-container {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+}
+
+#carouselImage {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: auto;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 46px;
+    padding: 10px;
+    cursor: pointer;
+    border: none;
+    background: none;
+    color: white;
+}
+
+button span {
+    display: inline-block;
+}
+
+#prevBtn {
+    left: 10px;
+}
+
+#nextBtn {
+    right: 10px;
+}
+
